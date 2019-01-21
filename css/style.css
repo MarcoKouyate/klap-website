@@ -1,0 +1,37 @@
+
+[class*="col-"], footer {
+  font-family: Open Sans, sans-serif;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+}
+
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+h1{
+   font-weight:bold;
+   font-size: 1.5rem;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.carousel-indicators li {
+  height:15px;
+  width:15px;
+  margin: 0px 7px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 218, 6, 1);
+  border-radius: 90px;
+
+}
+
+.carousel-indicators .active{
+    background-color: rgba(251, 218, 6, 1);
+}

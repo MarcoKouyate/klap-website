@@ -46,5 +46,11 @@ h1{
 }
 
 #contact {
-  background-color : #43b7ae;
+  background-color : #43b7ae; /*vert-bleu*/ 
+}
+
+.contact-profil {
+  background-color : #fbda06; /*jaune*/
+  height: auto;
+  border-radius: 100%;
 }

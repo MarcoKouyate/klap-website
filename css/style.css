@@ -1,4 +1,4 @@
-
+/*
 [class*="col-"], footer {
   font-family: Open Sans, sans-serif;
   background-color: lightgreen;
@@ -6,7 +6,7 @@
   border-radius: 6px;
   text-align: center;
 }
-
+*/
 @font-face {
  font-family: "Open Sans";
  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
@@ -43,4 +43,8 @@ h1{
 
 .mt-9 {
   margin-top: 5rem !important;
+}
+
+#contact {
+  background-color : #43b7ae;
 }

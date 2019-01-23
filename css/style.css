@@ -7,9 +7,20 @@
   text-align: center;
 }
 */
+
+
 @font-face {
  font-family: "Open Sans";
- src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+ src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Mattilda";
+    src: url("../fonts/Mattilda.otf");
+}
+
+body   {
+    font-family: "Open Sans", sans-serif;
 }
 
 h1{
@@ -55,3 +66,22 @@ h1{
   border-radius: 100%;
 }
 
+
+#slider-container {
+    position : relative;
+}
+
+
+
+.carousel-item img {
+    height: 100vh;
+}
+
+#subtitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color : #fbda06;
+    font-family: "Mattilda", serif;
+}

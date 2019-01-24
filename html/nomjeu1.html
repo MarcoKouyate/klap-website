@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Projet KLAP</title>
+    <title>Nomjeu1</title>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,44 +19,103 @@
    <link href="../css/style.css" rel="stylesheet">
  </head>
   <body>
-    <header class="container-fluid fixed-top">
+    <div id="menu" class="menu d-none">
+      <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+        <a href="../index.html" class="p-sm-3">Accueil</a>
+        <a href="nomjeu1.html" class="p-sm-3">Nom Jeu 1</a>
+        <a href="nomjeu2.html" class="p-sm-3">Nom Jeu 2</a>
+        <a href="ressources.html" class="p-sm-3">Ressources</a>
+        <a href="#" class="p-sm-3">Contact</a>
+      </div>
+    </div>
+    <header class="container-fluid menuCover">
       <div class="row">
-        <div class="offset-3 col-5 offset-sm-1 col-sm-3">3 colonnes</div>
-        <nav class="offset-1 col-2 offset-sm-5 col-sm-2">2 colonnes</nav>
+        <div class="offset-3 col-5 offset-sm-1 col-sm-3 mt-5">
+          <div class="d-none d-sm-block logo">KLAP</div>
+        </div>
+        <nav class="offset-1 col-2 offset-sm-6 col-sm-2 mt-2 mt-sm-5">
+          <img id="burgerMenu" src="../images/icons/menu.png" class= "img-fluid" alt="menu">
+        </nav>
       </div>
     </header>
 
     <section class="container-fluid">
       <div class="row">
-        <div style="height:300px" class="col-12 d-flex align-items-center">
-          <div class="offset-4 col-4 mt-5">Télécharger</div>
+        <div class="col-12 d-flex align-items-center text-white px-0">
+          <img src="../images/game1.jpg" class="img-fluid img-header" alt="game1">
+          <div class="col-12 mt-sm-5 header_infos">
+              <div class="row">
+                <span class="col-12 mt-sm-5 mb-2 header_title">NOM JEU 1</span>
+              </div>
+              <div class="row">
+                <div class="w-100 d-flex justify-content-center">
+                  <button class="p-3">Télécharger</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid my-lg-5">
+      <div class="row">
+        <div class="offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5 text-justify">
+          <h1 class="text-center mb-5 mb-5">Presentation du jeu</h1>
+          <p class="mb-5">NOM  JEU  1  est  un  jeu  coopératif  basé  sur  la  déduction  à  partir
+          d’indices abstraits qui, une fois réunis, donnent de l’information.
+          Vous   incarnez   un   voyageur   spatio-temporel   ayant   perdu   la
+          mémoire. Seules des bribes de rêves témoignent de votre métier
+          passé. C’est à partir de ces souvenirs traduits par des cartes que
+          vos alliés devront vous aider à le retrouver.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-4 offset-lg-3 col-lg-3 text-center">
+          <img src="../images/icons/clock.png" class= "img-fluid" alt="chrono">
+          <span class="key_number">15</span><br>
+          <span class="key_number_specification">min</span>
+        </div>
+        <div class="col-md-4 col-lg-3 text-center">
+          <img src="../images/icons/player.png" class= "img-fluid" alt="chrono">
+          <span class="key_number">3-6</span><br>
+          <span class="key_number_specification">joueurs</span>
         </div>
       </div>
     </section>
 
     <section class="container-fluid">
       <div class="row">
-        <div class="offset-md-3 col-md-6">6 colonnes</div>
+        <div class="offset-1 col-10 mt-5">
+          <h1>Règles du jeu</h1>
+        </div>
       </div>
       <div class="row">
-        <div class="offset-md-3 col-md-6">6 colonnes</div>
+        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Or13pbEfy6I" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="container-fluid">
       <div class="row">
-        <div class="offset-lg-2 col-lg-8">8 colonnes</div>
+        <div class="offset-1 col-10 mt-5">
+          <h1>Debrief pédagogique</h1>
+        </div>
       </div>
-    </section>
-
-    <section class="container-fluid">
       <div class="row">
-        <div class="offset-lg-2 col-lg-8">8 colonnes</div>
+        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Or13pbEfy6I" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer>
       Footer<br>
     </footer>
+    <script src="../js/burgerMenu.js"></script>
   </body>
 </html>

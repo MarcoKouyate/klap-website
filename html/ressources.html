@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Projet KLAP</title>
+    <title>Ressources</title>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,39 +19,96 @@
    <link href="../css/style.css" rel="stylesheet">
  </head>
   <body>
-    <header class="container-fluid fixed-top">
+    <div id="menu" class="menu d-none">
+      <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+        <a href="../index.html" class="p-sm-3">Accueil</a>
+        <a href="nomjeu1.html" class="p-sm-3">Nom Jeu 1</a>
+        <a href="nomjeu2.html" class="p-sm-3">Nom Jeu 2</a>
+        <a href="ressources.html" class="p-sm-3">Ressources</a>
+        <a href="#" class="p-sm-3">Contact</a>
+      </div>
+    </div>
+    <header class="container-fluid">
       <div class="row">
-        <div class="offset-3 col-5 offset-sm-1 col-sm-3">3 colonnes</div>
-        <nav class="offset-1 col-2 offset-sm-5 col-sm-2">2 colonnes</nav>
+        <div class="offset-3 col-5 offset-sm-1 col-sm-3 mt-5">
+          <div class="d-none d-sm-block logo">KLAP</div>
+        </div>
+        <nav class="offset-1 col-2 offset-sm-6 col-sm-2 mt-2 mt-sm-5">
+          <img id="burgerMenu" src="../images/icons/menu.png" class= "img-fluid" alt="menu">
+        </nav>
       </div>
     </header>
 
     <section class="container-fluid">
       <div class="row">
-        <div class="offset-md-3 col-md-6">6 colonnes</div>
+        <div class="offset-md-3 col-md-6 mt-5 title text-center">RESSOURCES</div>
       </div>
-    </section>
-
-    <section class="container-fluid">
       <div class="row">
-        <div class="offset-md-2 col-md-8">8 colonnes</div>
+        <div class="offset-1 col-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5 text-justify">
+          <h1 class="text-center mb-5 mb-5">Qu'est-ce qu'un portfolio ?</h1>
+          <p class="mb-5">
+            Le portfolio est un document permettant de mettre en avant ses
+            différentes compétences au travers de réalisations argumentées.
+            Il se constitue tout au long du parcours scolaire puis professionnel
+            et en est agrémenté par les différentes expériences. Il doit apporter
+            la preuve de la capacité à faire telle ou telle chose.
+         </p>
+        </div>
       </div>
     </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid mb-5">
+      <div class="row">
+        <h2 class="offset-1 offset-md-2 col-md-8 mb-5">Exemples</h2>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-2 my-2">
+          <div class="examples m-auto">
+            <div class="d-flex align-items-center justify-content-center example_infos">
+              <span>Exemple de portfolio 1</span>
+            </div>
+          </div>
+        </div>
+        <div class=" offset-md-1 col-md-2 my-2">
+          <div class="examples m-auto">
+            <div class="d-flex align-items-center justify-content-center example_infos">
+              <span>Exemple de portfolio 2</span>
+            </div>
+          </div>
+        </div>
+        <div class="offset-md-1 col-md-2 my-2">
+          <div class="examples m-auto">
+            <div class="d-flex align-items-center justify-content-center example_infos">
+              <span>Exemple de portfolio 3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bluePart">
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="offset-1 col-4">Titre</div>
+            <div class="offset-1 col-12  my-5 ">
+              <h2>Traces vs Preuves</h2>
+            </div>
           </div>
-          <div class="row">
-            <div class="offset-2 offset-md-3 col-1">trace</div>
-            <div class="col-6 col-md-4">flèche</div>
-            <div class="col-1">preuve</div>
-          </div>
-          <div class="row">
-            <div class="offset-1 col-4 offset-md-2 col-md-3">descriptif</div>
-            <div class="offset-2 col-4 offset-md-2 col-md-3">descriptif</div>
+          <div class="row mb-5 ">
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-3 offset-md-1 text-center">
+              <img class="mb-3 mb-md-5" src="../images/icons/track.png" alt="trace"><br>
+              Une trace peut provenir de différentes sources
+              (Vidéo,   photo,   mail...). Elle témoignent  de  la  réalisation
+              d’une tâche, d’une mission ou de  la  responsabilité  lors  d’un  projet.
+            </div>
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-2 text-center my-5">
+              <span class="arrowKeyWord">Argumentation</span><br>
+              <img class="rotate mt-2" src="../images/icons/arrow.png" alt="flèche">
+            </div>
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-3 offset-md-1 text-center">
+              <img class="mb-3 mb-md-5" src="../images/icons/loupe.png" alt="loupe"><br>
+              Une preuve repose  sur  une trace à laquelle on vient ajouter un argumentaire. Il s’agit d’expliquer le contexte de la trace et en quoi celle-ci est représentative d'une compétence.
+            </div>
           </div>
         </div>
       </div>
@@ -61,25 +118,31 @@
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="offset-1 col-4">Titre</div>
+            <div class="offset-1 col-12  my-5 ">
+              <h2>Expériences vs Compétences</h2>
+            </div>
           </div>
-          <div class="row">
-            <div class="offset-3 col-6">Titre</div>
+          <div class="row mb-5 ">
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-3 offset-md-1 text-center">
+              <img class="mb-3 mb-md-5" src="../images/icons/experience.png" alt="experience"><br>
+              Une expérience est quelque chose que l'on avécu. Elle peut-être scolaire, professionnelle ou bien issue de la vie de tous les jours.
+            </div>
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-2 text-center my-5">
+              <span class="arrowKeyWord">Valorisation</span><br>
+              <img class="rotate mt-2" src="../images/icons/arrowb.png" alt="flèche">
+            </div>
+            <div class="offset-1 col-10 col-sm-8 offset-sm-2 offset-md-1 col-md-3 offset-md-1 text-center">
+              <img class="mb-3 mb-md-5" src="../images/icons/brain.png" alt="brain"><br>
+              Une compétence est un savoir-faire. Elle n'est jamais innée et s'acquiert grâce à l'apprentissage ainsi que les différentes expériences de la vie.
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-
-
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-12">12 colonnes</div>
       </div>
     </section>
 
     <footer>
       Footer<br>
     </footer>
+    <script src="../js/burgerMenu.js"></script>
   </body>
 </html>

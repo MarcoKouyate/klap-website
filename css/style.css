@@ -127,19 +127,51 @@ button:hover{
     background-color: rgba(251, 218, 6, 1);
 }
 
-
-.mt-9 {
-  margin-top: 5rem !important;
+@media (min-width: 768px) {
+  .mt-md-9 {
+    margin-top: 6rem !important;
+  }
 }
 
-.primary-color {
-  background-color : #43b7ae; /*vert-bleu*/
-}
-
-.contact-profil {
-  background-color : #fbda06; /*jaune*/
-  height: auto;
+.contact-thumbnail {
+  position: relative;
+  overflow: hidden;
   border-radius: 100%;
+  background-image: url('../images/marco_kouyate.jpg');
+  height: 250px;
+  width: 250px;
+}
+
+
+.contact-infos {
+  position:absolute;
+  bottom:-70%;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color: rgba(251, 218, 6, 0.7);
+  transition: all 0.5s;
+}
+
+.infos-name {
+  font-weight: bold;
+  position:relative;
+  top:20px;
+  transition: all 0.5s;
+}
+
+.contact-infos p {
+  position:relative;
+  top:80px;
+}
+
+.contact-thumbnail:hover .contact-infos{
+  color:#212529;
+  bottom:0%;
+}
+
+.contact-thumbnail:hover .infos-name {
+  top:40px;
 }
 
 /* Jeu 1 */
@@ -230,13 +262,8 @@ button:hover{
   }
 }
 
-#slider-container {
-    position : relative;
-}
-
-
-.carousel-item img {
-    height: 100vh;
+.test{
+  max-width: 450px;
 }
 
 #subtitle {

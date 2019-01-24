@@ -20,10 +20,19 @@
  </head>
   <body>
     <header class="container-fluid fixed-top primary-color">
-      <div class="row">
-        <div class="offset-3 col-5 offset-sm-1 col-sm-3">3 colonnes</div>
-        <nav class="offset-1 col-2 offset-sm-5 col-sm-2">2 colonnes</nav>
-      </div>
+        <div class="row">
+            <div class = "col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>klap</h1>
+                    </div>
+                    <nav class="offset-5 col-1">
+                        <img class="img-fluid" src="images/menu-icon.png" alt="Menu icon">
+                    </nav>
+                </div>
+            </div>
+        </div>
+
     </header>
 
     <section class="container-fluid">
@@ -47,21 +56,22 @@
 	            </div>
 	          </div>
         	</div>
+			<h5 id="subtitle">Et si le portfolio n’etait qu’un jeu ?</h5>
         </div>
       </div>
     </section>
 
-    <section class="container-fluid pb-5">
+    <section class="container-fluid pt-5 pb-5">
       <div class="row">
     	<div class = "col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1">
 	      <div class="row">
 	        <div class="col-12">
-	        	<div class="row">
+	        	<div class="row pb-2">
 	        		<h2 class= "text-center col-12">Présentation du projet</h2>
 	        	</div>
 
 	          	<div class="row">
-		          <p class="text-justify col-12">
+		          <p class="text-justify col-12 lead">
 		              La genèse du projet portfolio KLAP démarre d’un constat
 		              concernant la méconnaissance du portfolio par la grande
 		              majorité des étudiants. Afin d’en faciliter l’approche jugée souvent
@@ -136,18 +146,27 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="mt-3">
       <div class="row">
-      	<div class="col-md-4">
-      		<p class="text-center">Footer 1</p>
-      	</div>
-      	<div class="col-md-4">
-      		<p class="text-center">Footer 1</p>
-      	</div>
-      	<div class="col-md-4">
-      		<p class="text-center">Footer 1</p>
-      	</div>
+          <div class = "col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1">
+              <div class="row">
+                <div class="col-md-4">
+                    <img src="images/UPEM_LOGO_EDITION72DPI.png" class= "img-fluid" alt="UPEM Logo">
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="">Nous contacter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/Logo_ESIPE.png" class= "img-fluid" alt="ESIPE	Logo">
+                </div>
+              </div>
+          </div>
       </div>
     </footer>
+
+	<script src="js/script.js"></script>
   </body>
 </html>

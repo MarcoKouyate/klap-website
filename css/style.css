@@ -275,3 +275,32 @@ button:hover{
     font-family: "Mattilda", serif;
     font-size: 3rem;
 }
+
+.vanishedR{
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+.vanishedRT{
+  transform: translateX(-300%);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.vanishedL{
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.vanishedT{
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.apparition {
+  opacity: 1;
+  transform: translateX(0%);
+  transform: translateY(0%);
+}

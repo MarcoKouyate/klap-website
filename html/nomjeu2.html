@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Nomjeu2</title>
+    <title>Nomjeu1</title>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,22 +59,24 @@
 
     <section class="container-fluid my-lg-5">
       <div class="row">
-        <div class="offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5 text-justify">
+        <div id="Game1-presentation" class="vanishedT offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5 text-justify ">
           <h1 class="text-center mb-5">Presentation du jeu</h1>
-          <p class="mb-5">Peu importe la mission confiée, il est nécessaire de prouver son
-                          aptitude à la remplir. Vous souhaitez voyager dans l’espace ? Il vous
-                          faudra réunir suffisamment d’éléments pertinents permettant de
-                          démontrer que c’est vous qui devez être choisi pour être le pilote
-                          de l’expédition.</p>
+          <p class="mb-5">
+            Peu importe la mission confiée, il est nécessaire de prouver son
+            aptitude à la remplir. Vous souhaitez voyager dans l’espace ? Il vous
+            faudra réunir suffisamment d’éléments pertinents permettant de
+            démontrer que c’est vous qui devez être choisi pour être le pilote
+            de l’expédition.
+          </p>
         </div>
       </div>
       <div class="row">
-        <div class="offset-md-2 col-md-4 offset-lg-3 col-lg-3 text-center">
+        <div id="Game1-chrono" class="vanishedR offset-md-2 col-md-4 offset-lg-3 col-lg-3 text-center">
           <img src="../images/icons/clock.png" class= "img-fluid" alt="chrono">
           <span class="key_number">15</span><br>
           <span class="key_number_specification">min</span>
         </div>
-        <div class="col-md-4 col-lg-3 text-center">
+        <div id="Game1-players" class="vanishedL col-md-4 col-lg-3 text-center">
           <img src="../images/icons/player.png" class= "img-fluid" alt="chrono">
           <span class="key_number">3-6</span><br>
           <span class="key_number_specification">joueurs</span>
@@ -82,7 +84,7 @@
       </div>
     </section>
 
-    <section class="container-fluid">
+    <section id="Game1-rules" class="vanishedR container-fluid">
       <div class="row">
         <div class="offset-1 col-10 mt-5">
           <h1>Règles du jeu</h1>
@@ -97,7 +99,7 @@
       </div>
     </section>
 
-    <section class="container-fluid">
+    <section id="Game1-debrief" class="vanishedL container-fluid ">
       <div class="row">
         <div class="offset-1 col-10 mt-5">
           <h1>Debrief pédagogique</h1>
@@ -116,5 +118,6 @@
       Footer<br>
     </footer>
     <script src="../js/burgerMenu.js"></script>
+    <script src="../js/scrollListenerGame.js"></script>
   </body>
 </html>

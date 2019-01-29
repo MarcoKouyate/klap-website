@@ -116,15 +116,43 @@ button:hover{
 .carousel-indicators li {
   height:15px;
   width:15px;
-  margin: 0px 7px;
+  margin: 0px 10px;
   background-color: transparent;
   border: 1px solid rgba(251, 218, 6, 1);
   border-radius: 90px;
-
 }
 
 .carousel-indicators .active{
     background-color: rgba(251, 218, 6, 1);
+}
+
+.header_infos {
+  position:absolute;
+  z-index:995;
+  left:0px;
+  text-align: center;
+}
+
+.header_title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-item .header_title{
+  font-size: 3rem;
+  color:#fbda06;
+  font-family: Mattilda;
+  font-weight: normal;
+}
+
+.darker{
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:2;
 }
 
 @media (min-width: 768px) {
@@ -175,17 +203,6 @@ button:hover{
 }
 
 /* Jeu 1 */
-
-.header_infos {
-  position:absolute;
-  left:0px;
-  text-align: center;
-}
-
-.header_title {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
 
 .key_number_icon {
   position:absolute;
@@ -245,7 +262,9 @@ button:hover{
 
 
 @media screen and (max-width: 768px) {
-
+  .hidden{
+    display:none;
+  }
 
   button {
     font-size: 3vw;
@@ -255,14 +274,27 @@ button:hover{
     font-size: 5vw;
   }
 
+  .carousel-item .header_title {
+    font-size: 7vw;
+  }
+
   .rotate{
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
   }
+
+  .carousel-indicators{
+
+    margin:0px;
+  }
+  .carousel-indicators li {
+    height:10px;
+    width:10px;
+  }
 }
 
-.test{
+.maxw-400{
   max-width: 450px;
 }
 
@@ -276,6 +308,7 @@ button:hover{
     font-size: 3rem;
 }
 
+@media (min-width: 1200px) {
 .vanishedR{
   transform: translateX(-100%);
   opacity: 0;
@@ -294,7 +327,7 @@ button:hover{
 }
 
 .vanishedT{
-  transform: translateY(-100%);
+  transform: translateY(-70%);
   opacity: 0;
   transition: all 1s ease-out;
 }
@@ -303,4 +336,5 @@ button:hover{
   opacity: 1;
   transform: translateX(0%);
   transform: translateY(0%);
+}
 }

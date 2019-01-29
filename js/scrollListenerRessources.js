@@ -1,9 +1,7 @@
 var sections = [];
-sections[0] = document.getElementById("Game1-presentation");
-sections[1] = document.getElementById("Game1-chrono");
-sections[2] = document.getElementById("Game1-players");
-sections[3] = document.getElementById("Game1-rules");
-sections[4] = document.getElementById("Game1-debrief");
+sections[0] = document.getElementById("ressources-presentation");
+sections[1] = document.getElementById("ressources-proof");
+sections[2] = document.getElementById("ressources-skills");
 
 if(window.innerWidth > 1200){
   $(window).scroll(function(e){

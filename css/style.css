@@ -216,8 +216,29 @@ button:hover{
 /* Jeu 1 */
 
 .img-header{
-  height:500px;
+  height:200px;
   width:1900px;
+}
+
+@media screen and (min-width: 576px) {
+  .img-header{
+    height:300px;
+    width:1900px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img-header{
+    height:500px;
+    width:1900px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-header{
+    height:700px;
+    width:1900px;
+  }
 }
 
 .key_number_icon {
